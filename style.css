@@ -1,0 +1,119 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: "Karla";
+        font-size: 16px;
+    }
+    
+    .top-container {
+        margin: 40px auto 0 80px;
+        padding-bottom: 20px;
+    }
+    
+    .top-container h1 {
+        color: hsl(179, 62%, 43%);
+    }
+    
+    .top-container h2 {
+        color: hsl(71, 73%, 54%);
+        margin-top: 30px;
+        line-height: 2;
+    }
+    
+    .top-container h3 {
+        color: hsl(218, 22%, 67%);
+    }
+    
+    .left-container {
+        margin-top: 35px;
+        background-color: #24a19c;
+        float: left;
+        width: 50%;
+        height: 23rem;
+        padding-bottom: 22.5px;
+    }
+    
+    .left-container h2 {
+        margin: 40px auto 0 50px;
+        color: beige;
+        line-height: 2;
+    }
+    
+    .left-container h1 {
+        color: white;
+        margin-left: 50px;
+        display: inline;
+        line-height: 2;
+    }
+    
+    .left-container h3 {
+        color: rgb(221, 221, 221);
+        margin-left: 10px;
+        display: inline;
+    }
+    
+    .left-container p {
+        margin-left: 50px;
+        color: beige;
+        font-size: 17px;
+    }
+    
+    button {
+        margin-left: 195px;
+        margin-top: 50px;
+        width: 15rem;
+        height: 4rem;
+        border-radius: 4px;
+        border: solid hsl(71, 73%, 54%);
+        background: hsl(71, 73%, 54%);
+        color: beige;
+        font-family: "Karla";
+        font-size: 15px;
+    }
+    
+    .right-container {
+        margin-top: 35px;
+        float: left;
+        background-color: hsl(179, 62%, 43%);
+        width: 50%;
+        height: 23rem;
+        color: beige;
+        padding-bottom: 22.5px;
+    }
+    
+    .right-container h2 {
+        margin-left: 50px;
+        margin-top: 35px;
+        line-height: 2;
+    }
+    
+    .right-container p {
+        margin-left: 50px;
+        font-weight: 50px;
+        line-height: 2;
+    }
+    
+    @media only screen and (max-width: 666px) {
+        .top-container h1,
+        h2,
+        h3 {
+            text-align: left;
+            margin-right: 20px;
+        }
+        .main {
+            display: grid;
+        }
+        .left-container {
+            width: 29.5rem;
+        }
+        button {
+            margin-left: 110px;
+        }
+        .right-container {
+            margin-top: 0;
+            width: 29.5rem;
+        }
+    }
